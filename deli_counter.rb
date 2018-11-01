@@ -20,7 +20,7 @@ def take_a_number(katz_deli, name)
       index_add = index + 1
         katz_deli.push(name)
     puts "Welcome, #{name}. You are number #{index_add} in line."
-    
+end    
 end    
 end 
 
