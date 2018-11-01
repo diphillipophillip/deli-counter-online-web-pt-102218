@@ -19,7 +19,8 @@ def take_a_number(katz_deli, name)
    katz_deli.push(name)
    puts "Welcome, #{name}. You are number 4 in line."
    elsif katz_deli == 1 
-   
+   katz_deli.push(name, name)
+   puts katz_deli
    
 end    
 end 
