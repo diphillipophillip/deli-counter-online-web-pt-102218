@@ -16,10 +16,10 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number 1 in line."
    elsif katz_deli.length > 1
-    name.each_with_index do |m, index|
+    katz_deli.each_with_index do |m, index|
       index_add = index + 1
         katz_deli.push(name)
-    puts "Welcome, #{name}. You are number #{index_add} in line."
+    puts "Welcome, #{m}. You are number #{index_add} in line."
 end    
 end    
 end 
